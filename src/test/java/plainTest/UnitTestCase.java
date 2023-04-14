@@ -12,9 +12,20 @@ public class UnitTestCase {
 		
 		driver.manage().window().maximize();
 		
-		driver.get("https://www.flipkart.com/");
+		driver.get(" https://phptravels.com/demo/");
+		
+		driver.findElementByName("first_name").sendKeys("neha");
+		
+		driver.findElementByName("last_name").sendKeys("patil");
+		
+		driver.findElementByName("business_name").sendKeys("ABC");
+		
+		driver.findElementByName("email").sendKeys("neha.patil@gmsil.com");
+		
+		driver.findElementByClassName("btn w100").click();
+		
+		driver.findElementByXPath(("//*[@id='number']")).getText();
 		
 		
-	driver.findElementByXPath("//*[@class='_2KpZ6l _2doB4z']").click();
 			}
 }
