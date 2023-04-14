@@ -18,6 +18,11 @@ public class inheritance {
 		obj.openApp();
 		
 	}
+	public void closeBrowser()
+	{
+		System.out.println("browser closea succesfully");
+		
+	}
 
 }
 
