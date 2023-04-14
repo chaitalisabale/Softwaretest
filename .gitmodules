@@ -1,0 +1,3 @@
+[submodule "Softwaretest"]
+	path = Softwaretest
+	url = https://github.com/chaitalisabale/Softwaretest.git
